@@ -14,3 +14,4 @@
 	else if(b>a)
 	printf("so lon hon la %d",b);
 	return 0;
+}
