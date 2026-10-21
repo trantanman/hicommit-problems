@@ -7,9 +7,9 @@ int main() {
   if (scanf("%d", &a)==1)
   // kiem tra n chia het cho 2
   if (a%2==0){
-      printf("Chan\n");
+      printf("Chan\n",a);
   }else{
-      printf("le\n");
+      printf("le\n",a);
 }
 	return 0;
 }
