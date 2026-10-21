@@ -7,7 +7,7 @@ int main()
     // nhap so nguyen n 
   if (scanf("%d",&n)==1)
   // kiem tra n chia het cho 2
-  if (a%2==0){
+  if (n%2==0){
     printf("CHAN\n",n);
   }
   else{
