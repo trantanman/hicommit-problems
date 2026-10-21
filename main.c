@@ -11,7 +11,7 @@ int main()
     printf("CHAN\n",n);
   }
   else{
-    printf("lE\n",n);
+    printf("LE\n",n);
   }
 	
   return 0;
