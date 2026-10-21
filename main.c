@@ -4,17 +4,31 @@ int main() {
   int a;
   int b;
   int c;
-
-  printf("nhap so nguyen thu nhat\n",a);
+  // nhap ba so nguyen tu ban phim 
+  printf("nhap so thu nhat: ");
   scanf("%d",&a);
-  printf("nhap so nguyen thu hai\n",b);
+  printf("nhap so thu hai: "):
   scanf("%d",&b);
-  printf("nahp so nguyen thu ba\n",c)
+  printf("nhap so nguyen thu ba: ");
   scanf("%d",&c);
 
-  if (a > b; b > c){
-  printf("so lon nhat la\n",a,b,c);
-    else 
+  //gia su a la lon nhat
+  max = a;
+  //so sanh max voi b
+  if (b>max){
+    max = b;0
+  }
+
+  //so sanh max voi c
+  if (c>max){
+    max = c;
+  }
+  // in ket qua
+  prinf("\n so lon nhat la :%d\n",max);
+
+  return 0;
+
+}
     
 
     
