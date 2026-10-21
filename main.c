@@ -1,15 +1,18 @@
 #include<stdio.h>
 	
-int main() {
-  int a;
+int main() 
+  {
+    int n;
 
-  // nhap so nguyen n 
-  if (scanf("%d", &a)==1)
+    // nhap so nguyen n 
+  if (scanf("%d",&n)==1)
   // kiem tra n chia het cho 2
   if (a%2==0){
-      printf("Chan\n",a);
-  }else{
-      printf("le\n",a);
-}
-	return 0;
+    printf("CHAN\n",n);
+  }
+  else{
+    printf("lE\n",n);
+  }
+	
+  return 0;
 }
