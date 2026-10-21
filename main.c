@@ -6,9 +6,9 @@
 	printf("nhap so nguyen a\n");
 	scanf("%d",&a);
 	
-	if(a%2==0)
+	if(a%2==0){
 	printf("Chan %d",a);
-	else
+    }else
 	printf("le %d",a);
 }
 	return 0;
