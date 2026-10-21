@@ -12,5 +12,4 @@
 	printf("le %d",a);
 }
 	return 0;
-  
 }
