@@ -6,12 +6,11 @@
 	
 	printf("nhap so nguyen a\n");
 	scanf("%d",&a);
-	printf("nhap so nguyen b\n");
-	scanf("%d",&b);
 	
-	if(a>b)
-	printf("So lon hon la %d",a);
-	else if(b>a)
-	printf("so lon hon la %d",b);
+	
+	if(a%2==0)
+	printf("Chan %d",a);
+	else if(a%2!=0)
+	printf("le %d",a);
 	return 0;
 }
