@@ -7,7 +7,7 @@ int main() {
   scanf("%d",&drl);
   if (dtb>=9.0,drl>=90){
     printf("HOC BONG XUAT SAC");
-  }else if (dtb>=8.0,drl>=80);{
+  }else if (dtb>=8.0,drl>=80){
     printf("HOC BONG GIOI");
   }else if (dtb>=7.0,drl>=70){
     printf("HOC BONG KHA");
