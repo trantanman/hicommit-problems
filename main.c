@@ -14,7 +14,7 @@ int main() {
   }else if (dtb>=7.0){
     xlht=3;
   }else{
-    pxlht=4;
+    xlht=4;
   }
   if (drl>=90){
     xlhk=1;
