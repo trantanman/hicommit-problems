@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-  int dtb;
-  int drl;
+  int 0.0 <=dtb <= 10.0;
+  int 0 <=drl <= 100;
   scanf("%d",&dtb);
   scanf("%d",&drl);
   if (dtb>=9.0,drl>=90){
