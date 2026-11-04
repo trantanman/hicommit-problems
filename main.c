@@ -1,29 +1,29 @@
 #include <stdio.h>
 
 int main() {
-  int dtb;
+  float dtb;
   int drl;
   int xlht;
   int xlhk;
-  scanf("%d",&dtb);
+  scanf("%f",&dtb);
   scanf("%d",&drl);
   if (dtb>=9.0){
-    printf("xlht=1");
-  }else if (8.0<=dtb){
-    printf("xlht=2");
+    xlht=1
+  }else if (dtb>=8.0){
+    xlht=2
   }else if (dtb>=7.0){
-    printf("xlht=3");
+    xlht=3
   }else{
-    printf("xlht=4");
+    pxlht=4
   }
   if (drl>=90){
-    printf("xlhk=1");
+    xlhk=1
   }else if (drl>=80){
-    printf("xlhk=2");
+    xlhk=2
   }else if (drl>=70){
-    printf("xlhk=3");
+    xlhk=3
   }else{
-    printf("KHONG_DAT");
+    xlhk=4
   }
   if (xlht==1&&xlhk==1){
     printf("HOC_BONG_XUAT_SAC");
