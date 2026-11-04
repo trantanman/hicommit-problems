@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main() {
   int a;
-  printf("nhap so nguyen ",a);
   scanf("%d",&a);
   
   switch (a){
