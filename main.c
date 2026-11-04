@@ -8,22 +8,22 @@ int main() {
   scanf("%f",&dtb);
   scanf("%d",&drl);
   if (dtb>=9.0){
-    xlht=1
+    xlht=1;
   }else if (dtb>=8.0){
-    xlht=2
+    xlht=2;
   }else if (dtb>=7.0){
-    xlht=3
+    xlht=3;
   }else{
-    pxlht=4
+    pxlht=4;
   }
   if (drl>=90){
-    xlhk=1
+    xlhk=1;
   }else if (drl>=80){
-    xlhk=2
+    xlhk=2;
   }else if (drl>=70){
-    xlhk=3
+    xlhk=3;
   }else{
-    xlhk=4
+    xlhk=4;
   }
   if (xlht==1&&xlhk==1){
     printf("HOC_BONG_XUAT_SAC");
