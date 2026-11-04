@@ -44,7 +44,7 @@ int main() {
   }else if(xlht==2&&xlhk==3){
     printf("HOC_BONG_KHA");
   }else{
-    print("KHONG_DAT");
+    printf("KHONG_DAT");
   }
   return 0;
 }
